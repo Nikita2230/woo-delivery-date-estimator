@@ -1,0 +1,31 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*~
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build and release files
+*.zip
+
+# Testing and coverage
+.phpunit.result.cache
+coverage/
+
+# Environment files
+.env
+.env.*
