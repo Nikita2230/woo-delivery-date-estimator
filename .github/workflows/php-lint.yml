@@ -35,3 +35,4 @@ jobs:
 
       - name: Check PHP syntax
         run: find . -type f -name '*.php' -print0 | xargs -0 -n1 php -l
+        
